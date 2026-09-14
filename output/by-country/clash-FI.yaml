@@ -6,12 +6,18 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaohe
   type: vless
-  server: 188.132.237.20
-  port: 2095
-  uuid: 3b9e513e-30d9-4ca8-8340-8f33fc6710de
+  server: fi1.zuoai.cf
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 02 - xiaohe
   type: ss
   server: 65.109.215.118
