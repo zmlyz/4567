@@ -26,7 +26,7 @@ proxies:
       Host: 178.95.170.115
 - name: 🇵🇱 PL 03 - xiaohe
   type: vless
-  server: 178.95.170.83
+  server: 178.95.170.115
   port: 2087
   uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
   udp: true
@@ -36,7 +36,7 @@ proxies:
   ws-opts:
     path: /4bc027a44532
     headers:
-      Host: 178.95.170.83
+      Host: 178.95.170.115
 proxy-groups:
 - name: PROXIES
   type: select
