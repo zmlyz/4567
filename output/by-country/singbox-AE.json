@@ -6,22 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - xiaohe",
-        "🇨🇿 CZ 02 - xiaohe",
-        "🇨🇿 CZ 03 - xiaohe",
-        "🇨🇿 CZ 04 - xiaohe",
-        "🇨🇿 CZ 05 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe",
-        "🇨🇿 CZ 02 - xiaohe",
-        "🇨🇿 CZ 03 - xiaohe",
-        "🇨🇿 CZ 04 - xiaohe",
-        "🇨🇿 CZ 05 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
