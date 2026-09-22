@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
   type: vless
-  server: 199.232.249.220
-  port: 443
-  uuid: 8abb648a-b004-42a4-aa05-49cdc2f94d4e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: global.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sardach3.global.ssl.fastly.net
-- name: 🇨🇭 CH 02 - xiaohe
-  type: vless
   server: 107.189.2.206
   port: 8443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
@@ -38,13 +24,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇭 CH 01 - xiaohe
-  - 🇨🇭 CH 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇭 CH 01 - xiaohe
-  - 🇨🇭 CH 02 - xiaohe
 rules:
 - MATCH,PROXIES
