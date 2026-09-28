@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   type: vless
-  server: 104.18.41.190
+  server: 172.64.146.66
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -20,34 +20,20 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 02 - xiaohe
   type: vless
-  server: 162.159.39.218
-  port: 8080
+  server: 104.18.47.113
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 03 - xiaohe
   type: vless
-  server: 104.20.30.10
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: us9.69lover.my
-  network: ws
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: us9.69lover.my
-- name: 🌐 其他地区 (Other) 04 - xiaohe
-  type: vless
-  server: 162.159.39.218
+  server: 172.64.53.55
   port: 8080
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -55,12 +41,26 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls+
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 04 - xiaohe
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 05 - xiaohe
   type: vless
-  server: 104.16.10.135
+  server: 104.16.10.48
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -74,8 +74,8 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 06 - xiaohe
   type: vless
-  server: 172.64.53.55
-  port: 8080
+  server: 172.64.154.8
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -87,45 +87,44 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 07 - xiaohe
   type: vless
-  server: 172.64.53.55
-  port: 8080
+  server: 104.18.46.234
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /?ed=2560security=tlssecurity=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 08 - xiaohe
   type: vless
-  server: 104.27.52.69
-  port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
+  server: 172.64.229.2
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: icy-pine-5efc.aoigjojowfie123.workers.dev
   network: ws
   ws-opts:
-    path: /sync
+    path: /?ed=2560security=tls+
     headers:
-      Host: icy-pine-5efc.aoigjojowfie123.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🌐 其他地区 (Other) 09 - xiaohe
   type: vless
-  server: 172.64.146.66
+  server: 188.114.97.6
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
-    path: /
+    path: /ws
     headers:
-      Host: ccc.010304.xyz
+      Host: a.cwvps.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
