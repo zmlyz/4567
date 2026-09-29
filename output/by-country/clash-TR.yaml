@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇰🇿 KZ 01 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   type: vless
-  server: 89.218.15.90
-  port: 10002
-  uuid: 392fcc7e-b995-11f1-a6b7-1b2272a86bd5
+  server: 130.94.0.228
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: kz1.vpnjantit.com
+  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /vpnjantit
+    path: /
     headers:
-      Host: kz1.vpnjantit.com
+      Host: edgetunnel-4uw.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇰🇿 KZ 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇰🇿 KZ 01 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
 rules:
 - MATCH,PROXIES
