@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇻 LV 01 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   type: vless
-  server: latvia-3.kochvpn.pw
-  port: 443
-  uuid: 8de0e6f4-d365-fa64-d5ba-eed9ea513e06
+  server: 104.26.13.23
+  port: 8880
+  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: latvia-3.kochvpn.pw
   network: ws
   ws-opts:
-    path: /stream/ws
+    path: /
     headers:
-      Host: latvia-3.kochvpn.pw
+      Host: shiny-flower-c72d.105-161.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇻 LV 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇻 LV 01 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
