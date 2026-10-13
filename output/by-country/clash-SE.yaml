@@ -6,47 +6,75 @@ log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xiaohe
   type: vless
-  server: 109.120.134.243
+  server: 188.114.97.6
   port: 443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: free.cndyw.ggff.net
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: pyip=bpb.yousef.isegaro.comfp=random
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
     headers:
-      Host: free.cndyw.ggff.net
+      Host: lucasjow.us.ci
 - name: 🇸🇪 SE 02 - xiaohe
   type: vless
-  server: 89.22.224.146
-  port: 43788
-  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /@Marisa_kristi
+    path: /?@EVAY_VPN
     headers:
-      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+      Host: lucasjow.us.ci
 - name: 🇸🇪 SE 03 - xiaohe
   type: vless
-  server: 94.143.231.146
+  server: 188.114.97.6
   port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: sub.merky.top
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /merky-connect/de6/
+    path: /
     headers:
-      Host: sub.merky.top
+      Host: lucasjow.us.ci
 - name: 🇸🇪 SE 04 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 05 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 06 - xiaohe
   type: vless
   server: 77.110.97.245
   port: 443
@@ -60,18 +88,90 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇸🇪 SE 05 - xiaohe
+- name: 🇸🇪 SE 07 - xiaohe
   type: vless
-  server: 732051t.se1.h1clayd.click
+  server: 188.114.97.6
   port: 443
-  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: NqyAfxsF9xeJZi_5itA5VCxaja1ioXjw7xPM_QonKVk
-  servername: 732051t.se1.h1clayd.click
-  client-fingerprint: chrome
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 08 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 09 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 10 - xiaohe
+  type: vless
+  server: 77.110.97.245
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇪 SE 11 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇸🇪 SE 12 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select
@@ -82,6 +182,13 @@ proxy-groups:
   - 🇸🇪 SE 03 - xiaohe
   - 🇸🇪 SE 04 - xiaohe
   - 🇸🇪 SE 05 - xiaohe
+  - 🇸🇪 SE 06 - xiaohe
+  - 🇸🇪 SE 07 - xiaohe
+  - 🇸🇪 SE 08 - xiaohe
+  - 🇸🇪 SE 09 - xiaohe
+  - 🇸🇪 SE 10 - xiaohe
+  - 🇸🇪 SE 11 - xiaohe
+  - 🇸🇪 SE 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,5 +199,12 @@ proxy-groups:
   - 🇸🇪 SE 03 - xiaohe
   - 🇸🇪 SE 04 - xiaohe
   - 🇸🇪 SE 05 - xiaohe
+  - 🇸🇪 SE 06 - xiaohe
+  - 🇸🇪 SE 07 - xiaohe
+  - 🇸🇪 SE 08 - xiaohe
+  - 🇸🇪 SE 09 - xiaohe
+  - 🇸🇪 SE 10 - xiaohe
+  - 🇸🇪 SE 11 - xiaohe
+  - 🇸🇪 SE 12 - xiaohe
 rules:
 - MATCH,PROXIES
