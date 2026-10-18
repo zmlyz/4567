@@ -20,7 +20,7 @@ proxies:
   udp: true
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 81.28.12.12
+  server: cl-glb6e059ee.gcdn.co
   port: 443
   uuid: 6206cb76-491d-4237-baf1-8c29eea4eafb
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: node-3.wt419.site
 - name: 🇨🇿 CZ 04 - xiaohe
   type: vless
-  server: cl-glb6e059ee.gcdn.co
+  server: 81.28.12.12
   port: 443
   uuid: 6206cb76-491d-4237-baf1-8c29eea4eafb
   udp: true
